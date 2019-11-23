@@ -1,0 +1,286 @@
+Crome
+---------
+package chome;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class lanuchchome {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","D:\\Chrome driver\\chromedriver_win32\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.amazon.in");
+		
+
+	}
+
+}
+
+
+
+FireFox
+------------------
+package firefoxlunch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.*;
+
+public class firefoxluchC {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+     System.setProperty("webdriver.gecko.driver","D:\\Firefox\\geckodriver-v0.25.0-win64\\geckodriver.exe");
+		
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("https://www.amazon.in");
+		
+		System.out.println(driver.getTitle());
+
+	}
+
+}
+
+
+Internet
+-----------------
+package iebrowsers;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.ie.*;
+
+
+public class internetexplorer {
+	
+	public static void main(String args[]){
+	
+		System.setProperty("webdriver.ie.driver", "D:\\IEDriver\\IEDriverServer_Win32_3.141.5\\IEDriverServer.exe");
+		
+		WebDriver driver = new InternetExplorerDriver();
+		
+		driver.get("https://www.javatpoint.com");
+	
+		
+		
+	}
+
+}
+
+
+
+HtmlUnitDriver
+-----------------
+package chome;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
+public class HeadleassB {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new  HtmlUnitDriver();
+		
+		driver.get("https://www.amazon.in/");
+		
+         System.out.println(driver.getTitle());
+
+	}
+
+}
+
+
+
+GmailTest
+-----------
+package firefoxlunch;
+
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.SendKeysAction;
+
+public class gmailtest {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.gecko.driver","D:\\Firefox\\geckodriver-v0.25.0-win64\\geckodriver.exe");
+		
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("https://login.yahoo.com/?.src=ym&lang=&done=https%3A%2F%2Fmail.yahoo.com%2F");
+		
+		//System.out.println(driver.getTitle());
+		
+		driver.findElement(By.id("login-username")).sendKeys("saikumar154@yahoo.com");
+		
+		driver.findElement(By.name("signin")).click();
+		Thread.sleep(5000);
+		
+		driver.findElement(By.xpath("//*[@id='login-passwd']")).sendKeys("saikumar154");
+		
+		//driver.findElement(By.id("login-passwd")).sendKeys("saikumar154");
+		
+		//driver.findElement(By.name("password")).sendKeys("saikumar");
+		
+		driver.findElement(By.xpath("//*[@id='login-signin']")).click();
+		
+		
+		
+		//driver.findElement(By.name("verifyPassword")).click();
+		
+		//driver.findElement(By.partialLinkText("Forgot")).click();
+
+	}
+
+}
+
+
+HeadLess
+-----------------
+package NewPackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
+public class NewClassHeadless {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stubHT
+		
+		
+		WebDriver driver =new HtmlUnitDriver();
+		
+		driver.get("https://www.amazon.in");
+		
+	System.out.println(driver.getTitle());
+	
+		
+
+	}
+
+}
+
+
+Locaters
+-----------------
+package chome;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LocatorsSelenium {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+        
+        
+        System.setProperty("webdriver.chrome.driver","D:\\Chrome driver\\chromedriver_win32\\chromedriver.exe");
+
+		
+		WebDriver driver =new ChromeDriver();
+		
+		driver.get("https://www.facebook.com/");
+		
+		//driver.get("https://yahoo.com");
+		
+		//System.out.println(driver.getTitle());
+		
+		//driver.findElement(By.id("login-username")).sendKeys("saikumar154@gmail.com");
+		
+		//driver.findElement(By.id("login-signin")).click();
+		
+		// ID
+		
+		//driver.findElement(By.id("email")).sendKeys("Test@gmail.com");
+		
+		// name
+		//driver.findElement(By.name("pass")).sendKeys("Tests");
+		
+	
+		
+		//driver.findElement(By.id("u_0_b")).click();
+		
+		//Link Text 
+		
+		//driver.findElement(By.linkText("Forgotten account?")).click();
+		
+		//partial link text
+		//driver.findElement(By.partialLinkText("account?")).click();
+		
+		
+		//driver.findElement(By.partialLinkText("Forgotten")).click();
+		
+		//driver.findElement(By.className("inputtext _58mg _5dba _2ph-")).sendKeys("ABC");
+		
+		
+		
+	}
+
+}
+
+
+
+DropDown
+-----------
+package chome;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class dropdowns {
+
+	public static void main(String[] args) throws InterruptedException 
+	
+	{
+		// TODO Auto-generated method stub
+
+		
+		
+		// TODO Auto-generated method stub
+				System.setProperty("webdriver.chrome.driver","D:\\Chrome driver\\chromedriver_win32\\chromedriver.exe");
+				
+				WebDriver driver = new ChromeDriver();
+				
+				driver.get("https://www.spicejet.com");
+				
+				driver.manage().window().maximize();
+				
+				Thread.sleep(5000);
+				
+				Select s = new Select(driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency")));
+				s.deselectByIndex(4);
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

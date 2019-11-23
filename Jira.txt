@@ -1,0 +1,38 @@
+Dashboard
+
+You have 1 Error and 1 Information Messages[USERFG0011] [100205] The active accounts linked to the user do not exist. Only limited features can be used. 
+Please try after sometime..
+
+
+Information message[100205] The active accounts linked to the user do not exist. Only limited features can be used. Please try after sometime..
+
+
+
+
+What You Will Learn: [hide]
+JIRA Scheme
+JIRA Issues and Issue types
+What is JIRA Issue?
+Issue Types
+JIRA Components
+JIRA screen
+Issue Attributes
+Issue Security Schemes
+System Administration
+How to create an issue in JIRA
+Sub-Task
+WorkFlows
+Plug-ins in JIRA
+JIRA Agile
+Creating issue in Agile
+How to create an Epic in Agile
+Use of Clone and Link in JIRA
+Reports in JIRA
+Kanban Board and Managing issues
+JIRA Scrum Vs JIRA Kanban
+
+
+
+
+
+sai lkwojoqijrbhrt4edr4gfe345rtdtretrtefd45435ttf515rhldjrnurp
